@@ -1,0 +1,186 @@
+*{
+	text-align:center;
+	color:#fff;
+}
+ul, li, div{
+	padding:0;
+	margin:0;
+}
+
+body{
+	background:#333;
+	width:1260px;
+	border:1px solid red;
+	margin:0 auto;
+}
+
+header{
+	width:100%;
+	min-height:200px;
+	border:1px solid red;
+	position:relative;
+}
+
+.block_header{
+	width:50%;
+	float:left;
+	position:absolute;
+	--border: 1px solid red;
+}
+.left{
+	text-align:left;
+	left:5%;
+	top:11%;
+}
+.right{
+	text-align:right;
+	right:5%;
+	top:31%;
+}
+.right span{
+	font-size: 1.3em;
+}
+.right a{
+	font-size:2em;
+}
+nav{
+		width:100%;
+}
+nav ul{
+	padding:0;
+	margin:20px 0;
+	display:flex;
+}
+nav ul li{
+	width:20%;
+	font-size:1.5em;
+	float:left;
+	padding: 20px 0;
+}
+nav ul .block_1{
+	background:red;
+}
+nav ul .block_2{
+	background:darkblue;
+}
+nav ul .block_3{
+	background:green;
+}
+nav ul .block_4{
+	background:violet;
+}
+nav ul .block_5{
+	background:blue;
+}
+#context{
+	width:100%;
+	display:flow-root;
+	min-height: calc(80vh - 100px);
+}
+#sidebar{
+	width:30%;
+	float:left;
+}
+#content{
+	float:right;
+	width:65%;
+}
+.sidebar_block{
+	background:#ba1616;
+	width:100%;
+	padding:25px 0;
+	margin:3px 0 0;
+	
+}
+.sidebar_block:before{
+	content:'+';
+	margin-right:5px;
+	padding: 1px 5px;
+	font-size:16px;
+	color:#fff;
+	border:1px dotted black;
+	border-radius:50px;
+}
+#content_img{
+	width:100%;
+	height:auto;
+	float:right;
+	margin:3px 0 20px 0;
+}
+#content_block_1{
+	width:100%;
+	margin:20px 0;
+}
+.content_block_2{
+	color:#rrr;
+	font-size:1.4em;
+	width:48%;
+	padding:10px 0;
+}
+
+#content_block_2_1{
+	float:left;
+	background:#3c80ee;
+}
+
+#content_block_2_2{
+	float:right;
+	background:#d1ac26;
+}
+#title{
+	font-size:2.2em;
+	margin:20px 0;
+	display:inline-block;
+}
+#content_block_2{
+	width:100%;
+	margin:20px 0 20px 0;
+}
+.content_block_3:not(:last-child){
+	margin-right:2%;
+}
+#content_block_3_1{
+	width:32%;
+	float:left;
+	background:purple;
+}
+#content_block_3_2{
+	width:32%;
+	float:left;
+	background:red;
+}
+#content_block_3_3{
+	width:32%;
+	float:left;
+	background:green;
+}
+.fa_block_3{
+	margin:10px 0;
+	font-size:60px !important;
+}
+footer{
+	width:100%;
+	margin-top:20px;
+	min-height:100px;
+	background:#252525;
+	clear:both;
+	position:relative;
+}
+.footer{
+	width:33.333333%;
+	float:left;
+	text-align:center;
+	position:relative;
+	top:45px;
+}
+.icons_footer i{
+	font-size:2em;
+}
+.right_footer{
+	right:20px;
+	text-align:right;
+}
+.left_footer{
+	left:20px;
+	text-align:left;
+}

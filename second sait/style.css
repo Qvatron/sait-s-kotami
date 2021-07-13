@@ -1,0 +1,267 @@
+*{
+	--text-align:center;
+	color:#fff;
+}
+ul, li, div{
+	padding:0;
+	margin:0;
+}
+
+body{
+	--background:#333;
+	--width:1260px;
+	--border:1px solid red;
+	margin:0 auto;
+	background: -webkit-linear-gradient(top, #ff0000 0%, #00b630 30%, #6ff5f5 70%, #9355c1 100%);
+}
+header{
+	width:1260px;
+	min-height:200px;
+	--border:1px solid red;
+	position:relative;
+	margin: 0 auto;
+	font-weight:bold;
+	background:orange;
+}
+.header_div{
+	width:33.3333333%;
+	--border:1px solid red;
+	float:left;
+	min-height:150px;
+	font-size:1.4em;
+	position:relative;
+}
+.header_left{
+	text-align:left;
+	width:20%;
+	left:5%;
+	padding:13px 0 0 0;
+	top:3%;
+}
+.header_mid{
+	text-align:left;
+	width:38%;
+	padding:38 0 0 0
+}
+.header_right{
+	width:18.6%;
+	text-align:right;
+	padding:60;
+	left:13.5%
+}
+.context{
+	min-height: calc(80vh - 100px);
+	margin: 0 auto;
+	--border:1px solid red;
+}
+.video{
+	--border:1px solid red;
+	width:47%;
+	float:left;
+	--background:pink;
+}
+.video_disc{
+	font-size:2em;
+	right:5%;
+	border:3px dotted darkblue;
+	min-height:309px;
+}
+.time{
+	float:left;
+	--border:1px solid red;
+	width:50%;
+}
+.video_container{
+	max-width:1260px;
+	margin:0 auto;
+	position:relative;
+}
+.video_section{
+	background:#18e6a1;
+	min-height:400px;
+	width:1260px;
+	margin:0 auto;
+}
+.time_container{
+	max-width:1260px;
+	margin:0 auto;
+}
+.time_section{
+	background:#9355c1;
+	min-height:260px;
+	margin:0 auto;
+	width:1260px;
+}
+.time{
+	width:45%;
+	float:left;
+	top:20%;
+}
+.timer{
+	padding:60px 0 0 20px;
+}
+.button{
+	color:black;
+	padding:80px 0px 0 0;
+	--border:1px solid red;
+}
+.button_button{
+	text-align:center;
+}
+.time_button{
+	--background:orange;
+	--min-height:33px;
+	padding:0 0 0 0;
+	text-align:center;
+	--max-width:120px;
+}
+.butt{
+	background:orange;
+	min-height:100px;
+	min-width:300px;
+}
+.slogan_section{
+	background:blue;
+	min-height:260px;
+	margin:0 auto;
+	width:1260px;
+}
+.slogan{
+	float:left;
+}
+.left_slogan{
+	font-size:3em;
+	padding:60px 0px 0 400px;
+	--border:1px solid red;
+}
+.slogan_png{
+	padding:20px 0 0 0;
+	margin-left:30px;
+	--border:1px solid red;
+}
+.advantages_section{
+	width:1260px;
+	margin:0 auto;
+	min-height:260px;
+	background:green;
+}
+.gif{
+	border-radius:15px;
+	margin:40px auto 0 auto;
+	--padding-left:50px;
+	--left:20%;
+	--text-align:center;
+	background:#27b0fd;
+	width:200px;
+	height:120px;
+}
+.advantage{
+	width:33.33333333%;
+	--border:1px solid violet;
+	float:left;
+	min-height:300px;
+}
+.under_gif{
+	border-radius:15px;
+	margin:20px auto 0 auto;
+	background:#27b0fd;
+	width:160px;
+	height:30px;
+}
+.gif_text{
+	padding-left:57px;
+	padding-top:10px;
+}
+.pes{
+	padding-left:10%;
+}
+.moto{
+	padding-left:13%;
+}
+.moto_2{
+	padding-left:2%;
+}
+.feedback_section{
+	width:1260px;
+	margin:0 auto;
+	min-height:220px;
+	background:#dfe227;
+	position:relative;
+}
+.feedback_icon{
+	--padding-bottom:5px;
+	--margin-bottom:20px;
+}
+.feedback_text{
+	margin-left:2%;
+}
+.feedback{
+	float:left;
+	--border:1px solid violet;
+}
+.feedback_background{
+	border-radius:15px;
+	position:absolute;
+	left:25%;
+	top:20%;
+	--margin:40px auto 0 auto;
+	--padding-left:50px;
+	--left:20%;
+	--text-align:center;
+	background:#1f9c29;
+	width:800px;
+	height:120px;
+}
+.feedback_icon_back{
+	border-radius:15px;
+	--margin-left:50px;
+	margin:auto 0 auto 112px;
+	--position:absolute;
+	--left:20%;
+	--top:20%;
+	--margin:40px auto 0 auto;
+	--padding-left:50px;
+	--left:20%;
+	--text-align:center;
+	background:#fff;
+	width:140px;
+	height:141px;
+}
+.buy_section{
+	width:1260px;
+	margin:0 auto;
+	min-height:260px;
+	background:#e22741;
+	position:relative;
+}
+.buy{
+	float:left;
+	--border:1px solid violet;
+}
+.buy_text{
+	--float:left;
+	position:absolute;
+	left:40%;
+	top:15%;
+	font-size:1.5em;
+}
+.buy_positions{
+	width:400px;
+	height:220px;
+	position:relative;
+}
+.buy_text_1{
+	position:absolute;
+	left:30%;
+	top:18%;
+}
+.buy_text_2{
+	position:absolute;
+	left:30%;
+	top:48%;
+}
+.buy_text_3{
+	position:absolute;
+	left:30%;
+	top:78%;
+}
